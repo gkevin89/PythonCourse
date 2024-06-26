@@ -20,11 +20,15 @@ word2 = "Truck"
 
 # Your code below:
 
+cat1 = word1[1:]
+cat2 = word2[0:1] + word2[-3:]
+cat3 = word2.replace("r","")
 
+result =cat1+cat2
+result2=cat1+cat3
 
-
-
-
+print(result)
+print(result2)
 
 
 

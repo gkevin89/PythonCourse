@@ -5,7 +5,12 @@
     How would you change the code to meet the requirement?
 
 """
+num1=15
+num2=4
 
+# % shows remainder, / shows the actual division
+remainder=num1%num2
+print(remainder)
 
 
 

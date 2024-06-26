@@ -16,13 +16,19 @@
 
 """
 
-chars = "<<[]]]" # this could be a very long string with an even length.
+chars = "<<[]]]++__" # this could be a very long string with an even length.
 word = "Cool"
 
 # Expected Result Printed: <<[Cool]]]
 
 
 # Your code below:
+var_size = len(chars)
+print(var_size)
+limiter = int(var_size/2)
+result = chars[:limiter] + word + chars[limiter:]
+
+print(result)
 
 
 
